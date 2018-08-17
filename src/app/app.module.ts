@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
@@ -10,7 +11,8 @@ import { GsgContentComponent } from './gsg/gsg-content/gsg-content.component';
 		GsgContentComponent
 	],
 	imports: [
-		BrowserModule
+		BrowserModule,
+		FlexLayoutModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

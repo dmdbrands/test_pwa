@@ -1,9 +1,54 @@
+@import './src/assets/styles/_colors.scss';
+@import './src/assets/styles/_layout.scss';
+
 h1 {
 	font-weight: 200;;
 }
 
 .content-container {
 	padding: 0 2rem;
+}
+
+.menu-content-container {
+	overflow: hidden;
+	transition: height .4s ease-out;
+
+	&.hide {
+		// !important is need to properly animate transitions
+		height: 0 !important;
+	}
+}
+
+.menu-arrow {
+	transform: rotate(180deg);
+	transition: transform .4s ease-out;
+}
+
+.menu-arrow-down {
+	transform: rotate(270deg);
+}
+
+.menu-item {
+	background-color: white;
+	border-top: 1px solid $placeholder-text;
+	cursor: default;
+	height: 5rem;
+	line-height: 5rem;
+	margin: 0 1rem;
+	opacity: 1;
+	overflow: hidden;
+	position: relative;
+	user-select: none;
+	width: calc(100vw - 2rem);
+
+	svg {
+		margin-top: 28px;
+		width: 24px;
+	}
+
+	img {
+		width: 24px;
+	}
 }
 
 .video-container {

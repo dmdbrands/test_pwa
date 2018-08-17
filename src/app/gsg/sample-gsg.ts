@@ -3,7 +3,7 @@ import { GSG } from './interfaces/gsg';
 export const sampleGSG: GSG = {
 	sku: '0480',
 	name: 'Basic Kitchen Scale',
-	desciption: 'Our top-selling food scale looks great on your counter, stores away easily, and tells you what you need to know to make better meals, whether you’re trying to count macros or perfect your signature cookie recipe. A straightforward design focused around the essentials makes it easy to quickly weigh the ingredients you use every day.',
+	description: 'Our top-selling food scale looks great on your counter, stores away easily, and tells you what you need to know to make better meals, whether you’re trying to count macros or perfect your signature cookie recipe. A straightforward design focused around the essentials makes it easy to quickly weigh the ingredients you use every day.',
 	videoUrl: 'c_Il8NE8gWQ',
 	faq: [
 		{

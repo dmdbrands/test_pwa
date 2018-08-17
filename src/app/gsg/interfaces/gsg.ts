@@ -1,7 +1,7 @@
 export interface GSG {
 	name: string;
 	sku: string;
-	desciption: string;
+	description: string;
 	videoUrl: string;
 	faq: Faq[];
 	imageUrls: string[];
