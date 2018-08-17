@@ -1,3 +1,6 @@
-<p>
-  gsg-content works!
-</p>
+<div class="content-container">
+	<h1>Welocome To Your {{ gsg.name}} Getting Started Guide</h1>
+	<div class="video-container">
+		<iframe class="video" frameborder="0" [src]="sanitizeUrl(gsg.videoUrl)"></iframe>
+	</div>
+</div>
