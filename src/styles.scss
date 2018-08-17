@@ -1,0 +1,48 @@
+@import 'src/assets/styles/_colors.scss';
+/* You can add global styles to this file, and also import other style files */
+// Global modifiers
+html, body, app-root, app-root > div {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	touch-action: manipulation;
+}
+
+body {
+	color: $primary-color;
+	font-family: 'Brandon';
+	font-weight: 300;
+}
+
+// Fonts
+// Brandon Grotesque
+@font-face {
+	font-family: 'Brandon';
+	font-style: normal;
+	font-weight: 200;
+	src: url('./assets/fonts/bgLight.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Brandon';
+	font-style: normal;
+	font-weight: 300;
+	src: url('./assets/fonts/bgRegular.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Brandon';
+	font-style: italic;
+	font-weight: 300;
+	src: url('./assets/fonts/bgRegularItalic.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Brandon';
+	font-style: normal;
+	font-weight: 500;
+	src: url('./assets/fonts/bgBold.otf') format('opentype');
+}
+@font-face {
+	font-family: 'Brandon';
+	font-style: normal;
+	font-weight: 600;
+	src: url('./assets/fonts/bgBlack.otf') format('opentype');
+}
