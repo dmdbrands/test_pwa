@@ -1,7 +1,7 @@
 <div class="content-container">
 	<h1>Welocome To Your {{ gsg.name}} Getting Started Guide</h1>
 	<div class="video-container">
-		<iframe class="video" frameborder="0" [src]="sanitizeUrl(gsg.videoUrl)"></iframe>
+		<iframe title="Getting Started Video" class="video" frameborder="0" [src]="sanitizeUrl(gsg.videoUrl)"></iframe>
 	</div>
 
 	<!-- accordion sections -->
@@ -63,5 +63,4 @@
 			<p [style.margin-top]="'5px'">{{ question.answer }}</p>
 		</div>
 	</div>
-
 </div>
