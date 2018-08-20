@@ -1,0 +1,26 @@
+{
+	"name": "Progressive Web GSG Test",
+	"short_name": "PWGSGTest",
+	"description": "A test gsg PWA",
+	"icons": [{
+		"src": "assets/Gg_128x128.png",
+			"sizes": "128x128",
+			"type": "image/png"
+		}, {
+			"src": "assets/Gg_152x152.png",
+			"sizes": "152x152",
+			"type": "image/png"
+		}, {
+			"src": "assets/Gg_256x256.png",
+			"sizes": "256x256",
+			"type": "image/png"
+		}, {
+			"src": "assets/Gg_512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}],
+	"start_url": "index.html",
+	"display": "standalone",
+	"background_color": "#ffffff",
+	"theme_color": "#404040"
+}

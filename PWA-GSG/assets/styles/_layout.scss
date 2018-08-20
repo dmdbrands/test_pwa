@@ -1,0 +1,40 @@
+$base-size: .25rem;
+$base-size-x2: $base-size * 2;
+$base-size-x3: $base-size * 3;
+$base-size-x4: $base-size * 4;
+$base-size-x5: $base-size * 5;
+$base-size-x6: $base-size * 6;
+$base-size-x8: $base-size * 8;
+$base-size-x10: $base-size * 10;
+
+$base-margin: 2rem;
+$base-margin-x2: $base-margin * 2;
+$base-margin-x3: $base-margin * 3;
+$base-margin-x4: $base-margin * 4;
+$base-margin-x6: $base-margin * 6;
+
+$med-font-size: 1.25rem;
+$sm-font-size: 1rem;
+
+// these can be used with ngStyle to create a row based layout
+// that is compatible with iOS9
+.row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.col6 {
+	flex: 1 1 50%;
+}
+
+.col8 {
+	flex: 1 1 60%;
+}
+
+.col3 {
+	flex: 1 1 33%;
+}
+
+.col4 {
+	flex: 1 1 40%;
+}
