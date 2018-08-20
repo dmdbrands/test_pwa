@@ -1,0 +1,91 @@
+{
+  "configVersion": 1,
+  "index": "/test_pwa/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/test_pwa/index.html",
+        "/test_pwa/main.efb4b202850e716b08d6.js",
+        "/test_pwa/polyfills.2f4a59095805af02bd79.js",
+        "/test_pwa/runtime.a66f828dca56eeb90e02.js",
+        "/test_pwa/styles.2a092c11998e9ffcfec9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/test_pwa/assets/fonts/bgBlack.otf",
+        "/test_pwa/assets/fonts/bgBold.otf",
+        "/test_pwa/assets/fonts/bgLight.otf",
+        "/test_pwa/assets/fonts/bgRegular.otf",
+        "/test_pwa/assets/fonts/bgRegularItalic.otf",
+        "/test_pwa/assets/icons/icon-128x128.png",
+        "/test_pwa/assets/icons/icon-144x144.png",
+        "/test_pwa/assets/icons/icon-152x152.png",
+        "/test_pwa/assets/icons/icon-192x192.png",
+        "/test_pwa/assets/icons/icon-384x384.png",
+        "/test_pwa/assets/icons/icon-512x512.png",
+        "/test_pwa/assets/icons/icon-72x72.png",
+        "/test_pwa/assets/icons/icon-96x96.png",
+        "/test_pwa/assets/logos/Gg_128x128.png",
+        "/test_pwa/assets/logos/Gg_152x152.png",
+        "/test_pwa/assets/logos/Gg_256x256.png",
+        "/test_pwa/assets/logos/Gg_512x512.png",
+        "/test_pwa/assets/styles/_colors.scss",
+        "/test_pwa/assets/styles/_layout.scss"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/test_pwa/assets/fonts/bgBlack.otf": "49f66a5c83ed144dd9397652e4974d118e5136a2",
+    "/test_pwa/assets/fonts/bgBold.otf": "a9b9dae4568883ef65d130a8237343185d463f2a",
+    "/test_pwa/assets/fonts/bgLight.otf": "7e7982b5b0e12b7657d37b6f8a5c53f828472cc4",
+    "/test_pwa/assets/fonts/bgRegular.otf": "e8acc9022336f58bb5ee2e2d4d98b51bebf45990",
+    "/test_pwa/assets/fonts/bgRegularItalic.otf": "fe6506eeb116a6a4fdb4b60c84b582f015c80c9e",
+    "/test_pwa/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/test_pwa/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/test_pwa/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/test_pwa/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/test_pwa/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/test_pwa/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/test_pwa/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/test_pwa/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/test_pwa/assets/logos/Gg_128x128.png": "1cea49d331a7df76e7eddedc26119c551da3be64",
+    "/test_pwa/assets/logos/Gg_152x152.png": "ce2eba701165ee50094c6bd681f5bb937af0b9d0",
+    "/test_pwa/assets/logos/Gg_256x256.png": "5cdc2d6daeab179361cf21a4009d12d110bd4bd7",
+    "/test_pwa/assets/logos/Gg_512x512.png": "ffc41fdb1f7d92a6a60c4ca6faa8ad2deb944ac0",
+    "/test_pwa/assets/styles/_colors.scss": "761ddd41626cf16f339bdb5c38aa46bf9e8b0558",
+    "/test_pwa/assets/styles/_layout.scss": "3708acda8e26e7cf34fa4c345086c1db8e69b9d0",
+    "/test_pwa/index.html": "3f1ca8d2a73ab0127fc060f6c423fc4b193b5033",
+    "/test_pwa/main.efb4b202850e716b08d6.js": "f414325b628750ac9386cbc2675f72d08c518cb5",
+    "/test_pwa/polyfills.2f4a59095805af02bd79.js": "8949bb1b1e302dda246f6ed9c2da703270360b1f",
+    "/test_pwa/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "/test_pwa/styles.2a092c11998e9ffcfec9.css": "d756d84da0add5477be72957dd8cf7f566b856c7"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
