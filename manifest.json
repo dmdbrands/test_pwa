@@ -1,11 +1,11 @@
 {
   "name": "PWA-GSG",
   "short_name": "PWA-GSG",
-  "theme_color": "#1976d2",
+  "theme_color": "#404040",
   "background_color": "#fafafa",
   "display": "standalone",
   "scope": "/",
-  "start_url": "/",
+  "start_url": "index.html",
   "icons": [
 		{
       "src": "assets/logos/Gg_128x128.png",
