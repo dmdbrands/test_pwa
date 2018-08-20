@@ -1,14 +1,27 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>PWAGSG</title>
-  <base href="/">
+	<meta charset="utf-8">
+	<title>PWAGSG</title>
+	<base href="/">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
 <body>
-  <app-root></app-root>
+	<app-root>
+		<!-- all content in this tag will disappear once app is loaded -->
+		<nav style="background-color:  #404040; height: 56px; width: 90%"></nav>
+		<!-- warning to users if they have javascript disabled -->
+		<noscript>
+			<h3 style="color:  #404040; font-family: Helvetica; margin: 2rem;">
+				Sorry, but app is not available without javascript
+			</h3>
+		</noscript>
+		<div id="spinner" class="spinner">
+			<div class="double-bounce1"></div>
+			<div class="double-bounce2"></div>
+		</div>
+	</app-root>
 </body>
 </html>
